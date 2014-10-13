@@ -6,7 +6,7 @@ Convert image to eps format required by LaTex
 
 The most simple solution is to use imagemagik. If you are using LaTex, it should not be very difficult to use this command line software.
 ```
-$ convert cource.pdf output.eps
+$ convert input.pdf output.eps
 ```
 
 ##Use PS.
