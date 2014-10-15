@@ -33,9 +33,12 @@ Pay attention that ``Wu:2012bt`` is the cite_key.
 \bibliographystyle{natbib}
 \bibliography{document}
 ```
+Note:
+- The ``document`` in ``\bibliography{}`` refer to the *.bib file.
+- The ``natbib`` in ``\bibliographystyle{}`` refers to the *.bst file. See the Resources section in the article for details.
 
 ## Edit cite key in the content.
-Go to the point where you want the citation to appear, and use the following: ``\cite{cite_key}``, where the cite_key is that of the bibitem you wish to cite.
+Go to the point where you want the citation to appear, and use the following: ``\cite{cite_key}``, where the cite_key corresponds to the bibitem you wish to cite.
 
 ## Produce pdf from TEX source files
 
